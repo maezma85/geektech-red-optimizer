@@ -1,0 +1,26 @@
+{
+  "name": "geektech-red-optimizer",
+  "version": "2.1.0",
+  "description": "Optimizador de red para juegos, refactorizado para mayor modularidad y rendimiento.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "npx @electron/packager . \"Geektech Red Optimizer\" --platform=win32 --arch=x64 --out=dist --asar --icon=icon.ico --no-prune --overwrite"
+  },
+  "keywords": [
+    "network",
+    "optimizer",
+    "gaming",
+    "tcp",
+    "dns",
+    "mtu",
+    "backup",
+    "restore"
+  ],
+  "author": "Geektech",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "@electron/packager": "^18.4.0"
+  }
+}

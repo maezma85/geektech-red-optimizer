@@ -1,0 +1,14 @@
+# Dependencias de Node.js
+/node_modules
+
+# Archivos de compilación / distribución
+/dist
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs de npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
